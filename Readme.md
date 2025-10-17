@@ -1,6 +1,6 @@
 # Docker Compose
 
-## MySQL 1:
+## 1. MySQL
 Utilizamos la imagen oficial de MySQL, que almacena la información de la tienda (productos, usuarios, etc.).
 Incluye un healthcheck para verificar que el servicio está activo antes de que los demás contenedores se levanten.
 ```yaml
